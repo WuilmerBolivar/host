@@ -15,6 +15,9 @@
 
 # If you Copy Then Give me The Credits
 
+if [[ $(id -u) -ne 0 ]] ; then echo "Por favor, ejecute como root!" ; exit 1 ; fi
+
+
 trap 'printf "\n";stop;exit 1' 2
 trap user_interrupt SIGINT
 trap user_interrupt SIGTSTP
