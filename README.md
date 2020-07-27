@@ -20,7 +20,7 @@
 ## Installation :
 
 * `apt update`
-* `apt install git curl php openssh -y`
+* `apt install git curl php ssh -y`
 * `git clone ghttps://github.com/WuilmerBolivar/host.git`
 * `cd host`
 
