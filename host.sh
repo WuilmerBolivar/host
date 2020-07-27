@@ -59,29 +59,6 @@ rm -rf linksender
 fi
 }
 
-sleep 3s; echo "Verificar el servicio HTTP"
-SERVICE='httpd'
-if ps ax | grep -v grep | grep $SERVICE > /dev/null
-then
-echo "--------------------------------------------"
-echo "$SERVICE ejecutandose..."
-echo "--------------------------------------------"
-else
-echo "$SERVICE esta detenido. (ojo)"
-echo "--------------------------------------------"
-fi
-
-sleep 5s; echo "Verificar el servicio SSH"
-SERVICE2='ssh'
-if ps ax | grep -v grep | grep $SERVICE2 > /dev/null
-then
-echo "$SERVICE2 ejecutandose..."
-echo "--------------------------------------------"
-else
-echo "$SERVICE2 esta detenido."
-echo "--------------------------------------------"
-fi
-
 banner(){
 printf "\e[1;33m     _    _           _   \e[0m\n"
 printf "\e[1;33m    | |  | | \e[0m\e[1;36m V-2.5\e[0m\e[1;33m  | |  \e[0m\n"
