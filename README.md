@@ -20,7 +20,7 @@
 ## Installation :
 
 * `apt update`
-* `apt install git curl php ssh -y`
+* `apt install git curl apache2 ssh -y`
 * `git clone https://github.com/WuilmerBolivar/host.git`
 * `cd host`
 
@@ -29,7 +29,7 @@
 
 ## Single Command :
 ```
-apt update; apt install git curl php openssh -y; git clone https://github.com/WuilmerBolivar/host.git; cd host; bash host.sh
+apt update; apt install git curl apache2 ssh -y; git clone https://github.com/WuilmerBolivar/host.git; cd host; bash host.sh
 ```
 <br>
 <p align="center">
