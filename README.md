@@ -25,7 +25,7 @@
 * `cd host`
 
 #### > Run : `bash host.sh`
-#### Verificar que existan servicios corriento en su sistema como por ejemplo un servicio web (httpd).
+#### Verificar que esten activos los servicios (apache2, ssh) corriento en su sistema...
 
 ## Single Command :
 ```
