@@ -21,7 +21,7 @@
 
 * `apt update`
 * `apt install git curl php ssh -y`
-* `git clone ghttps://github.com/WuilmerBolivar/host.git`
+* `git clone https://github.com/WuilmerBolivar/host.git`
 * `cd host`
 
 #### > Run : `bash host.sh`
