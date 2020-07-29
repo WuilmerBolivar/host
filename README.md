@@ -27,6 +27,9 @@
 #### > Run : `bash host.sh`
 #### Verificar que esten activos los servicios (apache2, ssh) corriento en su sistema...
 
+Vídeo instructivo:
+https://m.youtube.com/watch?v=HTgjz2qwtsg
+
 ## Single Command :
 ```
 apt update; apt install git curl apache2 ssh -y; git clone https://github.com/WuilmerBolivar/host.git; cd host; bash host.sh
